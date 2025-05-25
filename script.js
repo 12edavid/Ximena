@@ -4,7 +4,7 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Sorry, you got seized";
+    question.innerHTML = "Gracias bonitilla, sabía que dirías que sí";
     gif.src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDFsNW8yZGx5N3hpN3pqNW5mbWh6Y3c0bDJmajVwZ2JwZzcyNWwwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xw6yFn7frR3Y4/giphy.webp";
 });
 
