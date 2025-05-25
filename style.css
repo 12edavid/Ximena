@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: whitesmoke;
+}
+
+.wrapper {
+    position: relative; /* This allows absolutely positioned elements to be positioned within this element */
+    width: 100%;
+    max-width: 400px;
+    text-align: center; /* Center-align text and content */
+}
+
+h2 {
+    font-size: 2em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+.gif {
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn-group {
+    margin-top: 50px;
+    display: flex; /* Align buttons horizontally */
+    justify-content: center; /* Center the buttons */
+    position: relative; /* Ensure the group is positioned for absolute children */
+    width: 100%; /* Ensure the button group takes the full width */
+}
+
+button {
+    width: 150px;
+    height: 40px; /* Set a fixed height */
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    margin: 0 10px; /* Add margin between buttons */
+    position: relative; /* Allow positioning relative to the group */
+}
+
+button.yes-btn {
+    background: #e94d58;
+}
+
+button.no-btn {
+    background: white;
+    color: #e94d58;
+}
